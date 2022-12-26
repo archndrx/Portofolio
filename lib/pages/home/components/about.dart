@@ -160,7 +160,7 @@ class _AboutSectionState extends State<AboutSection> {
                     flex: constraints.maxWidth > 720.0 ? 1 : 0,
                     child: ClipRRect(
                       child: Image.asset(
-                        "assets/images/photo.jpeg",
+                        "assets/images/photo.png",
                         width: constraints.maxWidth > 720.0 ? null : 350.0,
                       ),
                     ),
