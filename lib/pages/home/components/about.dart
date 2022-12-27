@@ -152,7 +152,7 @@ class _AboutSectionState extends State<AboutSection> {
                   ),
                 ),
                 const SizedBox(
-                  width: 25.0,
+                  width: 50.0,
                 ),
                 if (ScreenHelper.isDesktop(context) ||
                     ScreenHelper.isTablet(context))
