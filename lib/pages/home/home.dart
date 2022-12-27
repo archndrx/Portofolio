@@ -48,6 +48,7 @@ class _HomeState extends ConsumerState<Home>
             physics: const BouncingScrollPhysics(),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 SizedBox(
                   height: ScreenHelper.isDesktop(context) ? 30 : 20,
