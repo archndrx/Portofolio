@@ -69,7 +69,7 @@ class _AboutSectionState extends State<AboutSection> {
                         height: 10.0,
                       ),
                       const Text(
-                        "allad;K;AKD;",
+                        "Aku Chandra, seorang mahasiswa IT yang sedang mengeksplorasi potensi diri dengan mencoba berbagai hal baru yang bisa aku lakukan. Salah satunya adalah web ini 😊",
                         style: TextStyle(
                           color: kCaptionColor,
                           height: 1.5,
@@ -80,7 +80,7 @@ class _AboutSectionState extends State<AboutSection> {
                         height: 20.0,
                       ),
                       const Text(
-                        "Teknologi yang aku gunakan ",
+                        "Keterampilan ku ",
                         style: TextStyle(
                           fontSize: 14,
                           fontWeight: FontWeight.bold,
