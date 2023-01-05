@@ -69,7 +69,8 @@ class _AboutSectionState extends State<AboutSection> {
                         height: 10.0,
                       ),
                       const Text(
-                        "Aku Chandra, seorang mahasiswa IT yang sedang mengeksplorasi potensi diri dengan mencoba berbagai hal baru yang bisa aku lakukan. Salah satunya adalah web ini 😊",
+                        "Aku Chandra, seorang mahasiswa IT yang sedang mengeksplorasi potensi diri dengan mencoba berbagai hal baru yang bisa aku lakukan.\nSalah satunya adalah web ini 😊",
+                        textAlign: TextAlign.justify,
                         style: TextStyle(
                           color: kCaptionColor,
                           height: 1.5,
