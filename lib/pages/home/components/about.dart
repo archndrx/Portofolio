@@ -93,7 +93,7 @@ class _AboutSectionState extends State<AboutSection> {
                       Consumer(builder: (context, ref, _) {
                         return ScrollConfiguration(
                           behavior: ScrollConfiguration.of(context)
-                              .copyWith(scrollbars: false),
+                              .copyWith(scrollbars: true),
                           child: SingleChildScrollView(
                             scrollDirection: Axis.horizontal,
                             child: Row(

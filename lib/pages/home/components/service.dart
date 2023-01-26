@@ -42,12 +42,12 @@ class ServiceSection extends StatelessWidget {
       color: Colors.yellow[400]!,
     ),
     NameIconColor(
-      title: "Technical Blog Writer",
-      iconData: Icons.article,
+      title: "College Student",
+      iconData: Icons.laptop_chromebook,
       color: Colors.blue[400]!,
     ),
     NameIconColor(
-      title: "Github Open Source",
+      title: "Code enthusiast",
       iconData: Icons.code,
       color: Colors.orange[400]!,
     ),
@@ -119,7 +119,7 @@ class ServiceSection extends StatelessWidget {
             height: 5,
           ),
           Text(
-            "I may not be perfect, but I'm surely of some help",
+            "Selalu mencoba menjadi lebih baik",
             style: GoogleFonts.josefinSans(
               color: Colors.grey[400],
               fontSize: 14.0,
