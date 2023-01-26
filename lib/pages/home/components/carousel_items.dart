@@ -21,7 +21,7 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      "Junior Flutter Developer",
+                      "Still learning to be a Developer",
                       style: GoogleFonts.josefinSans(
                         color: kPrimaryColor,
                         fontWeight: FontWeight.w900,
