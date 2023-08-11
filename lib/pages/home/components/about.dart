@@ -68,7 +68,7 @@ class _AboutSectionState extends State<AboutSection> {
                         height: 10.0,
                       ),
                       const Text(
-                        "Aku Chandra, seorang mahasiswa IT yang sedang mengeksplorasi potensi diri dengan mencoba berbagai hal baru yang bisa aku lakukan.\nSalah satunya adalah web ini 😊",
+                        "Aku Chandra, seorang mahasiswa IT yang sedang mengeksplorasi potensi diri dengan mencoba berbagai hal baru yang bisa aku lakukan.\nSaat ini sedang berfokus pada Mobile Developer yang dikembangkan menggunakan bahasa Dart dan Framework Flutter.",
                         textAlign: TextAlign.justify,
                         style: TextStyle(
                           color: kCaptionColor,
