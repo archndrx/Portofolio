@@ -131,9 +131,7 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
             ],
           ),
         ),
-        image: Container(
-          child:
-              SvgPicture.asset(AppConstants.guySvg, semanticsLabel: 'Guy Logo'),
-        ),
+        image:
+            SvgPicture.asset(AppConstants.guySvg, semanticsLabel: 'Guy Logo'),
       ),
     );

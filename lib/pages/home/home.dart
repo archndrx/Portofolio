@@ -2,12 +2,13 @@ import 'package:animated_theme_switcher/animated_theme_switcher.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:my_portfolio/models/project.dart';
 
 import 'package:my_portfolio/pages/home/components/about.dart';
 import 'package:my_portfolio/pages/home/components/carousel.dart';
 import 'package:my_portfolio/pages/home/components/footer.dart';
 import 'package:my_portfolio/pages/home/components/header.dart';
-import 'package:my_portfolio/pages/home/components/portfolio_stats.dart';
+import 'package:my_portfolio/pages/home/components/project.dart';
 
 import 'package:my_portfolio/pages/home/components/service.dart';
 import 'package:my_portfolio/provider/home.dart';
@@ -32,11 +33,6 @@ class _HomeState extends ConsumerState<Home>
   void initState() {
     _homeProvider = ref.read(homeProvider);
     super.initState();
-  }
-
-  @override
-  void dispose() {
-    super.dispose();
   }
 
   Widget _buildPage() {
@@ -74,35 +70,24 @@ class _HomeState extends ConsumerState<Home>
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      // Text(
-                      //   "Portfolio",
-                      //   style: GoogleFonts.josefinSans(
-                      //     fontWeight: FontWeight.w900,
-                      //     fontSize: 36,
-                      //   ),
-                      // ),
-                      // const SizedBox(
-                      //   height: 5,
-                      // ),
-                      // Text(
-                      //   "Here are some of my Previous Work :)",
-                      //   style: GoogleFonts.josefinSans(
-                      //     color: Colors.grey[400],
-                      //     fontSize: 14,
-                      //   ),
-                      // ),
-                      // const SizedBox(
-                      //   height: 15,
-                      // )
+                      Text(
+                        "Portfolio",
+                        style: GoogleFonts.josefinSans(
+                          fontWeight: FontWeight.w900,
+                          fontSize: 36,
+                        ),
+                      ),
+                      const SizedBox(
+                        height: 5,
+                      ),
+                      const SizedBox(
+                        height: 15,
+                      )
                     ],
                   ),
                 ),
-                // ProjectSection(
-                //   projects: ProjectModel.projects,
-                // ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 28.0),
-                  // child: PortfolioStats(),
+                ProjectSection(
+                  projects: ProjectModel.projects,
                 ),
                 const SizedBox(
                   height: 50.0,
@@ -169,18 +154,18 @@ class _HomeState extends ConsumerState<Home>
                         ? HeaderRow.headerItems[index].isDarkTheme!
                             ? SizedBox(
                                 width: 50,
-                                // child: CustomSwitch(
-                                //   value: ref.watch(themeProvider).isDarkMode,
-                                //   onChanged: (val) {
-                                //     ref.read(themeProvider).changeTheme(val);
-                                //     ThemeSwitcher.of(context).changeTheme(
-                                //         theme: ref
-                                //             .read(themeProvider)
-                                //             .getCurrentTheme,
-                                //         isReversed: false // default: false
-                                //         );
-                                //   },
-                                // ),
+                                child: CustomSwitch(
+                                  value: ref.watch(themeProvider).isDarkMode,
+                                  onChanged: (val) {
+                                    ref.read(themeProvider).changeTheme(val);
+                                    ThemeSwitcher.of(context).changeTheme(
+                                        theme: ref
+                                            .read(themeProvider)
+                                            .getCurrentTheme,
+                                        isReversed: false // default: false
+                                        );
+                                  },
+                                ),
                               )
                             : null
                         : null,

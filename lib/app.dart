@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           color: kBackgroundColor,
         ),
       ),
-      home: Home(),
+      home: const Home(),
     );
   }
 }

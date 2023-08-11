@@ -8,7 +8,6 @@ import 'package:my_portfolio/routes/routes.dart';
 import 'package:my_portfolio/utils/constants.dart';
 import 'package:my_portfolio/utils/globals.dart';
 import 'package:my_portfolio/utils/screen_helper.dart';
-import 'package:my_portfolio/utils/utils.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 class HeaderLogo extends StatelessWidget {
@@ -59,8 +58,7 @@ class HeaderLogo extends StatelessWidget {
 }
 
 class HeaderRow extends StatelessWidget {
-  const HeaderRow({Key? key, required this.themeSwitch}) : super(key: key);
-  final Widget themeSwitch;
+  const HeaderRow({Key? key}) : super(key: key);
 
   static List<NameOnTap> get headerItems => [
         NameOnTap(
@@ -126,7 +124,6 @@ class HeaderRow extends StatelessWidget {
                         ),
                 )
                 .toList(),
-            themeSwitch
           ]);
         },
       ),
@@ -181,11 +178,9 @@ class Header extends StatelessWidget {
             horizontal: ScreenHelper.isDesktop(context) ? 24 : 16.0),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            const HeaderLogo(),
-            HeaderRow(
-              themeSwitch: themeSwitch,
-            ),
+          children: const [
+            HeaderLogo(),
+            HeaderRow(),
           ],
         ),
       ),
