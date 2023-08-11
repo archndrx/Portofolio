@@ -9,6 +9,8 @@ class TechnologyModel {
 
 class TechnologyConstants {
   static TechnologyModel java = TechnologyModel("Java", AppConstants.javaImage);
+  static TechnologyModel golang =
+      TechnologyModel("Golang", AppConstants.golangImage);
   static TechnologyModel laravel =
       TechnologyModel("Laravel", AppConstants.laravelImage);
   static TechnologyModel flutter =
