@@ -47,7 +47,7 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
                     Row(
                       children: const [
                         Text(
-                          "Computer Science Student ",
+                          "Computer Science Student at Brawijaya University",
                           style: TextStyle(
                             color: kCaptionColor,
                             fontSize: 15.0,
