@@ -54,6 +54,8 @@ class AppConstants {
   static const womenCenterImage = _projectsImages + "women_center.png";
   static const medimateImage = _projectsImages + "medimate.png";
   static const cozyImage = _projectsImages + "cozy.png";
+  static const portoImage = _projectsImages + "porto.png";
+  static const bmiImage = _projectsImages + "bmi.png";
 
   static const _gifs = _outputs + "gif/";
   static const portfolioGif = _gifs + "mobile.gif";
