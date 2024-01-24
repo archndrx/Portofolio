@@ -7,7 +7,7 @@ class Utilty {
     }
   }
 
-  static Future<void> openMail() => openUrl("mailto:khrisna302@gmail.com");
+  static Future<void> openMail() => openUrl("mailto:ardhyachandrax@gmail.com");
 
   static Future<void> openMyLocation() =>
       openUrl("https://goo.gl/maps/7ADEHbgeXoBguEju8");
