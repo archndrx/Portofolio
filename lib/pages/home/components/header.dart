@@ -176,9 +176,9 @@ class Header extends StatelessWidget {
       child: Container(
         padding: EdgeInsets.symmetric(
             horizontal: ScreenHelper.isDesktop(context) ? 24 : 16.0),
-        child: Row(
+        child: const Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: const [
+          children: [
             HeaderLogo(),
             HeaderRow(),
           ],

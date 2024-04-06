@@ -143,10 +143,10 @@ Widget _buildUi(double width, BuildContext context) {
               const SizedBox(
                 height: 20.0,
               ),
-              Flex(
+              const Flex(
                 direction: Axis.horizontal,
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
+                children: [
                   Padding(
                     padding: EdgeInsets.only(bottom: 8.0),
                     child: Text(
