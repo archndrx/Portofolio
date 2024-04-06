@@ -42,11 +42,6 @@ class ServiceSection extends StatelessWidget {
       color: Colors.yellow[400]!,
     ),
     NameIconColor(
-      title: "College Student",
-      iconData: Icons.laptop_chromebook,
-      color: Colors.blue[400]!,
-    ),
-    NameIconColor(
       title: "Code enthusiast",
       iconData: Icons.code,
       color: Colors.orange[400]!,
@@ -88,7 +83,7 @@ class ServiceSection extends StatelessWidget {
               GestureDetector(
                 onTap: () {
                   Utilty.openUrl(
-                      "https://drive.google.com/file/d/19urFir2xNLAOdgO8EmY0OFFzIpPJFaLj/view?usp=sharing");
+                      "https://drive.google.com/file/d/11xdNDcVePXKcbHMnL8Byk5rf4aSyzU84/view?usp=sharing");
                 },
                 child: MouseRegion(
                   cursor: SystemMouseCursors.click,
@@ -118,15 +113,8 @@ class ServiceSection extends StatelessWidget {
           const SizedBox(
             height: 5,
           ),
-          Text(
-            "Selalu mencoba menjadi lebih baik",
-            style: GoogleFonts.josefinSans(
-              color: Colors.grey[400],
-              fontSize: 14.0,
-            ),
-          ),
-          SizedBox(
-            height: ScreenHelper.isDesktop(context) ? 140 : 70,
+          const SizedBox(
+            height: 70,
           ),
           Consumer(builder: (context, ref, _) {
             return Wrap(
@@ -182,9 +170,9 @@ class ServiceSection extends StatelessWidget {
                         ))
                     .toList());
           }),
-          const SizedBox(
-            height: 80.0,
-          ),
+          // const SizedBox(
+          //   height: 80.0,
+          // ),
           Container(
             alignment: Alignment.center,
             child: LayoutBuilder(
