@@ -18,20 +18,20 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisSize: MainAxisSize.min,
+                  mainAxisSize: MainAxisSize.max,
                   children: [
-                    Text(
-                      "Still learning to be a Developer",
-                      style: GoogleFonts.josefinSans(
-                        color: kPrimaryColor,
-                        fontWeight: FontWeight.w900,
-                        fontSize: 18.0,
-                        letterSpacing: 2,
-                      ),
-                    ),
-                    const SizedBox(
-                      height: 18.0,
-                    ),
+                    // Text(
+                    //   "Still learning to be a Developer",
+                    //   style: GoogleFonts.josefinSans(
+                    //     color: kPrimaryColor,
+                    //     fontWeight: FontWeight.w900,
+                    //     fontSize: 18.0,
+                    //     letterSpacing: 2,
+                    //   ),
+                    // ),
+                    // const SizedBox(
+                    //   height: 18.0,
+                    // ),
                     Text(
                       "Ardhya Khrisna Chandra".toUpperCase(),
                       style: GoogleFonts.josefinSans(
@@ -44,10 +44,10 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
                     const SizedBox(
                       height: 10.0,
                     ),
-                    Row(
-                      children: const [
+                    const Row(
+                      children: [
                         Text(
-                          "Computer Science Student \nat Brawijaya University",
+                          "Computer Science Fresh Graduate \nfrom Universitas Brawijaya",
                           style: TextStyle(
                             color: kCaptionColor,
                             fontSize: 15.0,
