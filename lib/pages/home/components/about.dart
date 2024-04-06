@@ -68,7 +68,7 @@ class _AboutSectionState extends State<AboutSection> {
                         height: 10.0,
                       ),
                       const Text(
-                        "Aku Chandra, seorang mahasiswa IT yang sedang mengeksplorasi potensi diri dengan mencoba berbagai hal baru yang bisa aku lakukan.\nSaat ini sedang berfokus pada Mobile Developer yang dikembangkan menggunakan bahasa Dart dan Framework Flutter.",
+                        "Hi, I'm Chandra. I'm a fresh graduate from Computer Science at Universitas Brawijaya. Right now, my focus is Mobile Developing using Flutter, Kotlin, and React Native",
                         textAlign: TextAlign.justify,
                         style: TextStyle(
                           color: kCaptionColor,
@@ -80,7 +80,7 @@ class _AboutSectionState extends State<AboutSection> {
                         height: 20.0,
                       ),
                       const Text(
-                        "Keterampilan ku ",
+                        "My Skill",
                         style: TextStyle(
                           fontSize: 14,
                           fontWeight: FontWeight.bold,
